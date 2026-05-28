@@ -1,5 +1,5 @@
+/*using brute fore where we sort the elements and using index to find the second smallest and the largest element*/
 #include<bits/stdc++.h>
-
 using namespace std;
 void getElements(int arr[], int n){
     if(n==0 || n==1){
