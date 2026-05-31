@@ -23,8 +23,9 @@ int main(){
     }
     cout << "Array before left shift: ";
     for(int i=0;i<n;i++){
-        cout << arr[i];
+        cout << arr[i] << " ";
     }
+    cout << endl;
     solve(arr,n);
     return 0;
 }
